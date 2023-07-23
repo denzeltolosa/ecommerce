@@ -1,0 +1,79 @@
+.main {
+    position: fixed;
+    top: 50px;
+    width: calc(100% - 260px);
+    min-height: calc(100vh - 60px);
+    left: 260px;
+    
+}
+
+.cards {
+    width: 100%;
+    padding: 25px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.cards .card {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card-name {
+    color: #888;
+    font-weight: 600;
+	
+}
+.card-content a {
+    color: black;
+    position: relative;
+    top: 20px;
+    left: 120px;
+
+}
+
+.icon-box i {
+    font-size: 45px;
+    color: blue;
+	cursor: pointer
+    top:5px;
+}
+.number {
+    font-size: 45px;
+    font-weight: 500;
+    color: blue;
+}
+.charts {
+    display: grid;
+	position: fixed;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+    width: 100%;
+    padding: 30px;
+    padding-top: 0;
+}
+
+.chart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    width: 100%;
+}
+
+.chart h2 {
+    margin-bottom: 5px;
+    font-size:20px;
+    color: black;
+    text-align: center
+}
+
+
+
+
